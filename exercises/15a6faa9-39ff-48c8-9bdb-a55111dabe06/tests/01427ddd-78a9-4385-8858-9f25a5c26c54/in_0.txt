@@ -1,0 +1,1 @@
+INSERT INTO STUDENTS(ID, FIRST_NAME, LAST_NAME, EMAIL) VALUES (1, 'Jhon', 'McNeil','jmcneil@juezlti.eu');INSERT INTO STUDENTS(ID, FIRST_NAME, LAST_NAME, EMAIL) VALUES (1, 'Rose', 'Kirving','rkirving.juezlti.eu'); select * from students;
