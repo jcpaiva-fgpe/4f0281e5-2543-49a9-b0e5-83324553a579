@@ -1,0 +1,1 @@
+select column_name from information_schema.columns where lower(table_name) = 'modules' Union Select name from modules;
