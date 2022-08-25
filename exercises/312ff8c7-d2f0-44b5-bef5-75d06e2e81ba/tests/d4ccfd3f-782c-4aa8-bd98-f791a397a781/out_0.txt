@@ -1,1 +1,5 @@
-<table><tbody><tr><td>&nbsp;</td></tr></tbody></table>
+ table_name | column_name |     data_type     | max_length 
+------------+-------------+-------------------+------------
+ modules    | hours       | integer           |         32
+ modules    | name        | character varying |        100
+(2 rows)
