@@ -1,0 +1,1 @@
+CREATE TABLE MODULES (     Name VARCHAR(100),     NumHours INTEGER );
