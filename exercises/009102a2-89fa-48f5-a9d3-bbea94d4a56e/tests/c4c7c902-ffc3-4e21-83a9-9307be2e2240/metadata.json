@@ -1,1 +1,1 @@
-{"id":"c4c7c902-ffc3-4e21-83a9-9307be2e2240","arguments":[],"weight":5,"visible":true,"input":"in_0.txt","output":"out_0.txt","timeout":0,"feedback":{}}
+{"id":"c4c7c902-ffc3-4e21-83a9-9307be2e2240","arguments":[],"weight":"5","visible":"true","input":"in_0.txt","output":"out_0.txt","timeout":"-1","feedback":[{"message":"Pay attention to the columns' length.","weight":"0"}]}
