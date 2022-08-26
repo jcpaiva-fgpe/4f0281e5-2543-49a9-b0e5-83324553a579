@@ -1,1 +1,1 @@
-{"id":"e16140d3-02df-4a44-a4b0-672d4bd5ec74","arguments":[],"weight":5,"visible":true,"input":"in_0.txt","output":"out_0.txt","timeout":0,"feedback":{}}
+{"id":"e16140d3-02df-4a44-a4b0-672d4bd5ec74","arguments":[],"weight":"5","visible":"true","input":"in_0.txt","output":"out_0.txt","timeout":"-1","feedback":[{"message":"The column ID must be the table's PRIMARY KEY.","weight":"0"}]}
