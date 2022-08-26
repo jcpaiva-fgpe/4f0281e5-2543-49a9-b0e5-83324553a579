@@ -1,1 +1,11 @@
-<table><tbody><tr><td>&nbsp;</td></tr></tbody></table>
+ table_name | column_name |     data_type     | max_length | is_nullable | contype 
+------------+-------------+-------------------+------------+-------------+---------
+ students   | birth_date  | date              |            | YES         | 
+ students   | email       | character varying |        100 | NO          | u
+ students   | first_name  | character varying |         25 | NO          | 
+ students   | id          | integer           |         32 | YES         | 
+ students   | last_name   | character varying |         50 | NO          | 
+ students   | nationality | character varying |         30 | YES         | 
+ students   | nif         | character varying |          9 | YES         | 
+ students   | phone       | integer           |         32 | YES         | 
+(8 rows)
