@@ -1,1 +1,4 @@
-<table><tbody><tr><td>&nbsp;</td></tr></tbody></table>
+ id | nif | last_name | first_name | birth_date | nationality |       email        | phone 
+----+-----+-----------+------------+------------+-------------+--------------------+-------
+  1 |     | McNeil    | Jhon       |            | Spanish     | jmcneil@juezlti.eu |      
+(1 row)
