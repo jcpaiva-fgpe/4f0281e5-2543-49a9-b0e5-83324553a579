@@ -1,1 +1,1 @@
-{"id":"c5a7b526-8045-43f5-9dd4-7e63696c3a57","arguments":[],"weight":5,"visible":true,"input":"in_0.txt","output":"out_0.txt","timeout":0,"feedback":{}}
+{"id":"c5a7b526-8045-43f5-9dd4-7e63696c3a57","arguments":[],"weight":"5","visible":"true","input":"in_0.txt","output":"out_0.txt","timeout":"-1","feedback":[{"message":"You have to use ADD for each column.","weight":"0"}]}
