@@ -1,1 +1,1 @@
-{"id":"eae83bab-8a08-4f25-b7fd-4671aa1575ef","arguments":[],"weight":5,"visible":true,"input":"in_0.txt","output":"out_0.txt","timeout":0,"feedback":{}}
+{"id":"eae83bab-8a08-4f25-b7fd-4671aa1575ef","arguments":[],"weight":"5","visible":"true","input":"in_0.txt","output":"out_0.txt","timeout":"-1","feedback":[{"message":"You must use different queries for each table.","weight":"0"}]}
