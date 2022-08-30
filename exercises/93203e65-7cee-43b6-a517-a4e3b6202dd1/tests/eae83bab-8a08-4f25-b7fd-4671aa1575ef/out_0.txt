@@ -1,1 +1,11 @@
-<table><tbody><tr><td>&nbsp;</td></tr></tbody></table>
+ table_name | contype | column_name |     data_type     
+------------+---------+-------------+-------------------
+ books      | >       | modules     | module, degree
+ books      | p       | degree      | character
+ books      | p       | isbn        | numeric
+ modules    | p       | code        | integer
+ modules    | p       | degree      | character
+ books      |         | module      | integer
+ books      |         | title       | character varying
+ modules    |         | name        | character varying
+(8 rows)
