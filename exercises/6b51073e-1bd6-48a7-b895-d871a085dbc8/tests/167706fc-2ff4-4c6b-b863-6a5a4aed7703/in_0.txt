@@ -1,1 +1,6 @@
-SELECT tablename FROM   pg_indexes WHERE    lower(tablename) = 'modules' AND lower(indexdef) LIKE '%(name)%' ORDER BY   tablename, Indexname;
+SELECT tablename
+FROM pg_indexes
+WHERE lower(tablename) = 'modules'
+AND lower(indexdef) LIKE '%(name)%'
+AND schemaname = 'public'
+ORDER BY   tablename, Indexname;
