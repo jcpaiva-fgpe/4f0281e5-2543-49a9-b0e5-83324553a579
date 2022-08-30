@@ -1,1 +1,3 @@
-ALTER TABLE MODULES    DROP Code,     DROP Skill;
+ALTER TABLE MODULES 
+    DROP Code,
+    DROP Skill;
