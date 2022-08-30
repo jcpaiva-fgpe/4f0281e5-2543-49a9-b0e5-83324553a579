@@ -1,1 +1,5 @@
-SELECT  indexname FROM  pg_indexes WHERE  tablename = 'modules' ORDER BY  Indexname;
+SELECT indexname
+FROM pg_indexes
+WHERE  tablename = 'modules'
+AND schemaname = 'public'
+ORDER BY  Indexname;
