@@ -1,1 +1,6 @@
-<table><tbody><tr><td>&nbsp;</td></tr></tbody></table>
+ column_name 
+-------------
+ name
+ code
+ department
+(3 rows)
