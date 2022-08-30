@@ -1,1 +1,1 @@
-{"id":"e00baca1-5730-4679-b8d5-4a390cf5ae0d","arguments":[],"weight":5,"visible":true,"input":"in_0.txt","output":"out_0.txt","timeout":0,"feedback":{}}
+{"id":"e00baca1-5730-4679-b8d5-4a390cf5ae0d","arguments":[],"weight":"5","visible":"true","input":"in_0.txt","output":"out_0.txt","timeout":"-1","feedback":[{"message":"Use ALTER to modify the column's definitions.","weight":"0"}]}
