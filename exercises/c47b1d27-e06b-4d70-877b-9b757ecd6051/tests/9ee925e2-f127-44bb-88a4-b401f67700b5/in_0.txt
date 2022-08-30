@@ -1,1 +1,4 @@
-SELECT    table_name,    column_name,    data_type FROM  information_schema.columns WHERE lower(table_name) in ('modules', 'subjects');
+SELECT table_name, column_name, data_type
+FROM information_schema.columns
+WHERE lower(table_name) in ('modules', 'subjects') and table_schema = 'public'
+ORDER BY column_name;
