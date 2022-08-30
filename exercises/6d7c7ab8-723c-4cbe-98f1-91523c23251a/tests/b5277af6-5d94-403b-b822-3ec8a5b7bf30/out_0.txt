@@ -1,1 +1,7 @@
-<table><tbody><tr><td>&nbsp;</td></tr></tbody></table>
+ table_name | column_name  |     data_type     | max_length 
+------------+--------------+-------------------+------------
+ modules    | code         | numeric           |          4
+ modules    | name         | character varying |        100
+ modules    | number_hours | integer           |         32
+ modules    | skill        | character varying |        100
+(4 rows)
