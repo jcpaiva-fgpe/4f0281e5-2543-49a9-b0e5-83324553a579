@@ -1,1 +1,4 @@
-<table><tbody><tr><td>&nbsp;</td></tr></tbody></table>
+ foreign_table | rel | primary_table |   fk_columns   | delete_rule 
+---------------+-----+---------------+----------------+-------------
+ books         | ->  | modules       | module, degree | CASCADE
+(1 row)
