@@ -1,1 +1,3 @@
-<table><tbody><tr><td>&nbsp;</td></tr></tbody></table>
+ indexname 
+-----------
+(0 rows)
