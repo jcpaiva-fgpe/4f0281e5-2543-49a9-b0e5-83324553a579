@@ -1,3 +1,4 @@
- table_name 
-------------
-(0 rows)
+table_name   
+----------
+ users
+(1 filas)
