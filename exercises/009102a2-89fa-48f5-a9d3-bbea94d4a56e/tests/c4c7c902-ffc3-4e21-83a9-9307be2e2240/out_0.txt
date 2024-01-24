@@ -1,1 +1,9 @@
-<table><tbody><tr><td>&nbsp;</td></tr></tbody></table>
+table_name	column_name	data_type	max_length
+students    birth_date  date	
+students    email       character varying   100
+students    first_name  character varying   25
+students    id          integer             32
+students    last_name   character varying   50
+students    nationality	character varying   30
+students    nif         character varying   9
+students    phone	    integer             32
