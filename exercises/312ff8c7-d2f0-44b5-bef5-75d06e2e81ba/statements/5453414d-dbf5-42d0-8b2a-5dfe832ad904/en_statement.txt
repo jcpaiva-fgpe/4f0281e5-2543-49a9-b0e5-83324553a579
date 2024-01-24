@@ -1,1 +1,43 @@
-<p>The basic objects with which <code>SQL</code> works to store the data are the <strong>tables</strong>, which as we already know are a set of <em>rows</em> and <em>columns</em> whose intersection is called <em>cell</em>. This is where the elements of information will be stored, the data that we want to collect.</p><p>Before creating the table, it is convenient to plan some details:</p><ul><li><strong>What name< /strong> We are going to give <strong>the table</strong>.</li><li><strong>What name</strong> are we going to give to each of the <strong>columns</strong >.</li><li><strong>What type and size of data</strong> are we going to store in each column.</li><li><strong>What restrictions</strong> do we have on the data. </li><li>Any other <strong>additional information</strong> that we need.</li></ul><p>And we must take into account other <strong>rules</strong> that must be met <strong>for table names</strong>:</p><ul><li>We cannot have duplicate table names in the same schema (user).</li><li>They must start with a alphabetic character.</li><li>Maximum length is 30 characters.</li><li>Only English letters, digits, or the underscore are allowed.</li><li>You cannot to match <code>SQL</code> reserved words (for example, we cannot call a <code>WHERE</code> table).</li><li>It is not case sensitive. </li><li>In case the name has blank spaces or national characters (allowed only in some databases), then it is usually enclosed in double quotes.</li></ul><h3> Syntax</h3><p>The basic syntax of the command used to create a table is as follows:</p><blockquote><pre><code>CREATE TABLE [schema.]tablename (column1 datatype, column2 datatype,. ..columnN datatype );</code></pre></blockquote><p>where:</p><ul><li><code>column1, column2, ..., columnN</code> are the names of the columns that the table will contain.</li><li><code>datatype</code> indicates the data type of each column.</li></ul><h3>Example:</h3 ><p>To create a table called <strong>STUDENTS</strong> with two fields of type <code>VARCHAR</code>:</p><blockquote><pre><code>CREATE TABLE STUDENTS (<br /> firstName V ARCHAR(25),<br /> lastName VARCHAR(50)<br />);</code></pre></blockquote><h3>Exercise:</h3><p>Create a table <code> MODULES</code>, composed of the following attributes:</p><ul><li><code>name</code>: of type <code>VARCHAR</code> and size 100.</li>< li><code>numHours</code>: of type <code>INTEGER</code>.</li></ul><p><small><strong>Note:</strong> Later we will see how to delete The tables. However, as you will surely have to delete tables to be able to redo them correctly or with greater precision, you must use the <code>DROP TABLE table_name;</code> command. For example: <ul><li><code>DROP TABLE USERS;</code>,</li><li><code>DROP TABLE MODULES;</code> or </li><li><code> DROP TABLE STUDENTS;</code></small></li></ul></p>
+<p>The basic objects with which <code>SQL</code> works to store the data are the <strong>tables</strong>
+, which as we already know are a set of <em>rows</em> and <em>columns</em> whose intersection is called <em>cell</em>. 
+This is where the elements of information will be stored, the data that we want to collect.</p><p>Before creating the table, 
+    it is convenient to plan some details:</p>
+<ul>
+    <li><strong>What name< /strong> We are going to give <strong>the table</strong>.
+    </li><li><strong>What name</strong> are we going to give to each of the <strong>columns</strong >.
+    </li><li><strong>What type and size of data</strong> are we going to store in each column.
+    </li><li><strong>What restrictions</strong> do we have on the data.
+    </li><li>Any other <strong>additional information</strong> that we need.</li>
+</ul><p>And we must take into account other <strong>rules</strong> that must be met <strong>for table names</strong>:</p>
+<ul>
+    <li>We cannot have duplicate table names in the same schema (user).</li><li>They must start with a alphabetic character.</li>
+    <li>Maximum length is 30 characters.</li>
+    <li>Only English letters, digits, or the underscore are allowed.</li>
+    <li>You cannot to match <code>SQL</code> reserved words (for example, we cannot call a <code>WHERE</code> table).</li>
+    <li>It is not case sensitive. </li>
+    <li>In case the name has blank spaces or national characters (allowed only in some databases), then it is usually enclosed in double quotes.</li>
+    </ul>
+<h3> Syntax</h3><p>The basic syntax of the command used to create a table is as follows:</p>
+<blockquote><pre><code>CREATE TABLE [schema.]tablename (
+    column1 datatype, column2 datatype,. ..columnN datatype
+);</code></pre></blockquote>
+<p>where:</p><ul><li><code>column1, column2, ..., columnN</code> are the names of the columns that the table will contain.</li>
+<li><code>datatype</code> indicates the data type of each column.</li>
+</ul><h3>Example:</h3 >
+<p>To create a table called <strong>STUDENTS</strong> with two fields of type <code>VARCHAR</code>:</p>
+<blockquote><pre><code>CREATE TABLE STUDENTS (
+     firstName V ARCHAR(25),
+     lastName VARCHAR(50)
+);</code></pre></blockquote>
+<h3>Exercise:</h3><p>Create a table <code> MODULES</code>, composed of the following attributes:</p>
+<ul>
+    <li><code>name</code>: of type <code>VARCHAR</code> and size 100.</li>
+    <li><code>hours</code>: of type <code>INTEGER</code>.</li>
+</ul>
+<p><small><strong>Note:</strong> Later we will see how to delete The tables. However, as you will surely have to delete tables to be able to redo them correctly or with greater precision, you must use the
+<code>DROP TABLE table_name;</code> command. For example:
+<ul>
+    <li><code>DROP TABLE USERS;</code>,</li>
+    <li><code>DROP TABLE MODULES;</code> or </li>
+    <li><code> DROP TABLE STUDENTS;</code></small></li>
+</ul></p>
