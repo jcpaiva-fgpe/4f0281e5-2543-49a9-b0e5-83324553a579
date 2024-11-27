@@ -1,8 +1,7 @@
-CREATE VIEW EMPLOYEE_DETAILS AS
-SELECT e.last_name, 
-       e.salary, 
-       d.department_name,
-       l.city
+CREATE VIEW MANAGERS_DEPARTMENTS AS
+SELECT 
+    e.first_name,
+    e.last_name,
+    d.department_name
 FROM employees e
-JOIN departments d ON e.department_id = d.department_id
-JOIN locations l ON d.location_id = l.location_id;
+JOIN departments d ON e.employee_id = d.manager_id;
