@@ -1,0 +1,3 @@
+SELECT * FROM EMPLOYEE_DETAILS 
+WHERE city = 'Toronto'
+ORDER BY salary DESC;
